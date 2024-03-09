@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    pudding: 0;
+    box-sizing: 0;
+}
+ul, ol{
+    list-style: none;
+}
+h1,h2,h3,p{
+    margin: 0;
+    pudding: 0;
+}
+img{
+    max-width: 100%;
+    height: none;
+}

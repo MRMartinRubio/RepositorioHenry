@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Mi página web</title>
+  <link rel="stylesheet" type="text/css" href="estilos.css">
+ </head>
+  <body> 
+   <h1>PRIMEROS ESTILOS CON CSS</h1>
+     <p>Esta es mi página web y le daré estilos.</p>
+  </body>
+</html>
+
+ h2 {
+  font-size: x-large;
+  color: brown;
+         }
+
+body { 
+  background-color: blanchedalmond;
+       }
+      
+ h1 {
+ font-size: 4em;
+ color: brown;
+         }
+ h2 {
+ font-size: 3em;
+ color: brown;
+ padding-top: 1em;
+ width: fit-content;
+                  }
+              
+ .textonti{
+  font-size: larger;
+  padding-bottom: 1em;
+ }
+ .logo {
+  width: 380px;
+  height: 350px;
+ }
+ #principal{
+  font-size: 70px;
+
+ }
+ #titulos{
+  border: 2px solid black;
+  width: 55vw;
+  margin: auto;
+  padding: 3em;
+  display:flex;
+  align-items: center;
+  flex-direction: column;
+ } 
+
+ article{
+  padding-left: -1em;
+  width:40em;
+ }
+#alfacont {
+  width: 100em;
+  padding: 4em;
+  margin: auto;
+  display: flex;
+  gap: 10em;
+  align-items: center;
+  }
+ 
+
